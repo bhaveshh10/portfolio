@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/4e3ad59313.js"crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -17,7 +18,7 @@
 
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
-            <a href="#aboutme">Skills</a>
+            <a href="#skills">Skills</a>
             <!-- <a href="#services">Services</a>
             <a href="#portfolio">Portfolio</a>
             <a href="#contact">Contact</a> -->
@@ -34,11 +35,11 @@
                     I want to be an <b>Web developer / Web Designer.</p>
                         
                 <div class="social-media">
-                   <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                   <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                   <a href=""><i class="fa-brands fa-twitter"></i></a>
-                   <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-                   <a href=""><i class="fa-brands fa-github"></i></a>
+                   <a href="https://instagram.com/_bhavesh_agrawal_?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram"></i></a>
+                   <a href="https://www.facebook.com/profile.php?id=100077512676442&mibextid=ZbWKwL"><i class="fa-brands fa-facebook-f"></i></a>
+                   <!-- <a href=""><i class="fa-brands fa-twitter"></i></a> -->
+                   <a href="https://www.linkedin.com/in/bhavesh-agrawal-50323722a"><i class="fa-brands fa-linkedin-in"></i></a>
+                   <a href="https://github.com/bhaveshh10"><i class="fa-brands fa-github"></i></a>
                 </div>        
                 <a href="#" class="btn">Download CV</a>
             </div>
@@ -49,11 +50,11 @@
                         
         </section>
 
-        <section class="skill" id="skills">
+        <section class="skill" id="skills" data-aos="fade-in" style="background-color: #323946;">
             <!-- <div class="my-skill">
                 <h1>My <span>Skills</span></h1>
             </div> -->
-           <div class="container2">
+           <div class="container2" data-aos="fade-right" >
             <div class="card">
                 <div class="percent" style="--cir:#e65f2a;--num:85;">
                     <div class="dot"></div>
@@ -126,6 +127,33 @@
            </div> 
         </section>
 
+        <!-- <section class="Contact" id="Contact">
+            <h2 class="heading">Contact <span>Me</span></h2>
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full-name">
+                    <input type="email" placeholder="Email-address">
+                </div>
+
+                <div class="input-box">
+                    <input type="number" placeholder="Phone-number">
+                    <input type="text" placeholder="Email-subject">
+                </div>
+
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+                <input type="submit" value="Send message" class="btn">
+            </form>
+        </section> -->
+
         <script src="main.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            offset: 300,
+            duration: 500, 
+            easing: 'ease-in',
+
+          });
+        </script>
 </body>
 </html>
