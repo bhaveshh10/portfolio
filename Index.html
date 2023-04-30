@@ -29,10 +29,10 @@
             <div class="home-content">
                 <h3>Hi There!</h3>
                 <h1>I'M Bhavesh Agrawal</h1>
-                <h3>Frontend Developer</h3>
+                <h3> <span id="mult"></span></h3>
                 <p> I'M student of <b>Rungta college of science and technology.</b>
                     Opted Bachelor of computer application (BCA) for grduation.
-                    I want to be an <b>Web developer / Web Designer.</p>
+                    </p>
                         
                 <div class="social-media">
                    <a href="https://instagram.com/_bhavesh_agrawal_?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram"></i></a>
@@ -146,6 +146,7 @@
         </section> -->
 
         <script src="main.js"></script>
+        <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
           AOS.init({
@@ -154,5 +155,16 @@
             easing: 'ease-in',
           });
         </script>
+
+        <script>
+            const typed = new Typed('#mult', {
+            strings: ['Frontend Developer', 'Web Designer', 'UX / UI'],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backdelay: 1000,
+            loop: true,
+            });
+        </script>
+
 </body>
 </html>
