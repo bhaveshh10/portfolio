@@ -415,6 +415,8 @@ section
 
     .home-img img {
         width: 70vw;
+        height: 50vh;
+        border-radius: 20px;
         margin-bottom: 40px;
     }
 }
